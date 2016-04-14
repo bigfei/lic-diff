@@ -1,0 +1,65 @@
+# node
+npm*.log
+node_modules
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+
+# idea
+.idea/
+.iml
+
+# common
+.irb-history
+.DS_Store
+
+# Xcode
+.trace
+*/build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+*.hmap
+*.xccheckout
+
+#CocoaPods
+Pods
+
+# Build products
+build/
+*.o
+*.LinkFileList
+*.hmap
+
+# Automatic backup files
+*~.nib/
+*.swp
+*~
+*.dat
+*.dep
+*.swp
+*.autosave
+.sublime-*
+.*~
+*~
+
+
+# AppCode specific files
+.idea/
+*.iml
+r/
+
+*.trace

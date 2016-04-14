@@ -1,0 +1,24 @@
+{
+  "name": "lic-diff",
+  "version": "0.0.1",
+  "description": "diff the two package.json file to find out the diffs between them and output as excel file ",
+  "main": "index.js",
+  "dependencies": {
+    "nlf": "~1.4.0",
+    "xlsx": "~0.8.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "",
+    "uglify-js": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bigfei/lic-diff.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
