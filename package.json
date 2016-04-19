@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-install": "^0.6.0",
     "mocha": "",
     "uglify-js": ""
   },

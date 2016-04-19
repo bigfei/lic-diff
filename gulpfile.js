@@ -1,5 +1,17 @@
-var gulp = require('gulp');
+var gulp = require('gulp'),
+ install = require("gulp-install");
 
 gulp.task('default', function() {
-  // place code for your default task here
 });
+
+gulp.task('clean', function() {
+
+})
+
+gulp.task('install', function() {
+  gulp.src(['./new/package.json', './old/package.json'])
+    .pipe(install({
+      production: true,
+      ignoreScripts: true
+    }));
+})
