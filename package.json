@@ -4,10 +4,15 @@
   "description": "diff the two package.json file to find out the diffs between them and output as excel file ",
   "main": "index.js",
   "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "minimist": "^1.2.0",
     "nlf": "~1.4.0",
+    "semver": "^5.1.0",
+    "underscore": "^1.8.3",
     "xlsx": "~0.8.0"
   },
   "devDependencies": {
+    "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-install": "^0.6.0",
     "mocha": "",
